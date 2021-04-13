@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FontAwesome linking -->
+    <script
+      src="https://kit.fontawesome.com/4970682fc4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- this script is just for google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Css linking -->
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="css/animations_hover.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/artists.css" />
+    <link rel="stylesheet" href="css/artists-responsive.css" />
+    <title>Music Player || Music is The Medicine of The Mind.</title>
+    <link rel="icon" href="favicons.ico" />
+  </head>
+  <body>
+    <!-- top navigation bar -->
+    <nav id="main-nav">
+      <!--This div contains the logo and title of the page-->
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="img/website-logo.svg"
+              alt="Music Studio Logo"
+              class="zoom"
+            />
+          </a>
+          <a class="musico" href="index.html">
+            <h4>
+              Músico <br />
+              <span class="bold">Studio </span>
+            </h4>
+          </a>
+          <!-- this is the  favourites text -->
+          <a href="#" class="fav universal">Favourites</a>
+        </div>
+
+        <!-- this is for search bar -->
+        <div class="search-box universal">
+          <!-- magnifying glass- search icon -->
+          <div>
+            <i class="fas fa-search hdr-btn1 universal"></i>
+          </div>
+          <input type="text" placeholder=" Search" />
+          <!-- mic icon -->
+          <div>
+            <i class="fas fa-microphone hdr-btn universal"></i>
+          </div>
+        </div>
+        <!-- this is for notification bell -->
+        <div>
+          <img class="bell" src="img/bell_icon.svg" />
+        </div>
+        <!-- this is for profile picture -->
+        <div class="pro">
+          <img class="profile" src="img/profile-picture.svg" />
+        </div>
+      </div>
+    </nav>
+    <!-- This is the main and it divided in two sections-->
+    <main>
+      <!-- Section - 1 -->
+      <aside class="aside section-1">
+        <!-- For Big-Picture -->
+        <div class="big-picture">
+          <div class="big-picture-image universal">
+            <!-- empty div because image added by css -->
+          </div>
+          <!-- Big-Picture details -->
+          <div class="big-picture-detail">
+            <div class="descriptive-part">
+              <div class="song-name-main">
+                <h1>Taylor Swift</h1>
+              </div>
+              <div class="followers">88m Followers</div>
+              <p class="author">American singer</p>
+              <!-- description of the current author -->
+              <p class="desc">
+                Taylor Alison Swift is an American singer-songwriter. Her
+                narrative songwriting, which often takes inspiration from her
+                personal life, has received widespread critical praise and media
+                coverage. Born in West Reading, Pennsylvania, Swift relocated to
+                Nashville, Tennessee, in 2004 to pursue a career in country
+                music.
+              </p>
+            </div>
+            <!-- action part -->
+            <div class="action-part">
+              <div class="btns">
+                <button class="universal">Play All</button>
+                <button class="universal-2">Follow</button>
+              </div>
+              <p>247 Tracks &nbsp; |&nbsp; 128 Albums</p>
+            </div>
+          </div>
+        </div>
+        <!-- now the playlist part begins -->
+        <div class="playlist-items">
+          <!-- playlist item -->
+          <div class="playlist-item universal">
+            <div class="left">
+              <div>01</div>
+              <div class="universal">
+                <img src="img/queue/2.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Alone</h5>
+                <p>Alan Walker</p>
+              </div>
+            </div>
+            <div class="center">3:14</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus universal"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item universal">
+            <div class="left">
+              <div><img src="img/artist/vector.svg" /></div>
+              <div class="universal">
+                <img src="img/queue/havana.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Havana</h5>
+                <p>Camila</p>
+              </div>
+            </div>
+            <div class="center">3:44</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus universal"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item universal">
+            <div class="left">
+              <div>03</div>
+              <div class="universal">
+                <img src="img/queue/2.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Alone</h5>
+                <p>Alan Walker</p>
+              </div>
+            </div>
+            <div class="center">2:55</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus universal"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item universal">
+            <div class="left">
+              <div>04</div>
+              <div class="universal">
+                <img src="img/queue/havana.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Havana</h5>
+                <p>Camila</p>
+              </div>
+            </div>
+            <div class="center">3:37</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus universal"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item universal">
+            <div class="left">
+              <div>05</div>
+              <div class="universal">
+                <img src="img/queue/2.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Alone</h5>
+                <p>Alan Walker</p>
+              </div>
+            </div>
+            <div class="center">3:27</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus universal"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item universal">
+            <div class="left">
+              <div>06</div>
+              <div class="universal">
+                <img src="img/queue/havana.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Havana</h5>
+                <p>Camila</p>
+              </div>
+            </div>
+            <div class="center">4:31</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus universal"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item universal">
+            <div class="left">
+              <div>07</div>
+              <div class="universal">
+                <img src="img/artist/adele.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Hello</h5>
+                <p>Adele</p>
+              </div>
+            </div>
+            <div class="center">3:28</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus universal"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item universal">
+            <div class="left">
+              <div>08</div>
+              <div class="universal">
+                <img src="img/queue/lose-you.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Lose You</h5>
+                <p>Selena</p>
+              </div>
+            </div>
+            <div class="center">3:48</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus universal"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item universal">
+            <div class="left">
+              <div>09</div>
+              <div class="universal">
+                <img src="img/queue/2.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Alone</h5>
+                <p>Alan Walker</p>
+              </div>
+            </div>
+            <div class="center">3:20</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus universal"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item universal">
+            <div class="left">
+              <div>10</div>
+              <div class="universal">
+                <img src="img/artist/selena.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Lose You</h5>
+                <p>Selena</p>
+              </div>
+            </div>
+            <div class="center">4:10</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus universal"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item universal">
+            <div class="left">
+              <div>11</div>
+              <div class="universal">
+                <img src="img/queue/havana.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Havana</h5>
+                <p>Camila</p>
+              </div>
+            </div>
+            <div class="center">4:00</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus universal"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item universal">
+            <div class="left">
+              <div>12</div>
+              <div class="universal">
+                <img src="img/artist/selena.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Lose You</h5>
+                <p>Selena</p>
+              </div>
+            </div>
+            <div class="center">3:31</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus universal"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!-- -------------------------------------------------------------------------------- -->
+
+      <!-- one aside section is complete -->
+      <label class="universal-2" for="more"
+        ><i class="fas fa-arrow-left"></i
+        ><span class="hover-1">&nbsp; Queue</span>
+      </label>
+      <!-- this is that more button -->
+      <input type="checkbox" id="more" />
+      <!-- -------------------------------------------------------------- -->
+      <!-- </div> -->
+      <aside class="aside section-2">
+        <!-- similar class will be applicable to both similar artists and recently played -->
+        <div class="similar">
+          <!-- section heading, which also contains the view all button -->
+          <div class="section-heading">
+            <h1>Similar Artists</h1>
+            <div class="view-all-button">View All</div>
+          </div>
+          <!-- list is the container for the contents of similar artists -->
+          <div class="list">
+            <!-- item -->
+            <div class="list-item universal">
+              <div class="universal">
+                <img src="img/queue/lose-you.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div style="position: absolute; left: 120px">
+                <h5>Lose You</h5>
+                <p class="author-name">Selena Gomez</p>
+              </div>
+              <div class="extra">
+                <div>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <p class="author-name">2:14</p>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="list-item universal">
+              <div class="universal">
+                <img src="img/artist/ed sheeran.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div style="position: absolute; left: 120px">
+                <h5>Shape of You</h5>
+                <p class="author-name">Ed Sheeran</p>
+              </div>
+              <div class="extra">
+                <div>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <p class="author-name">4:00</p>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="list-item universal">
+              <div class="universal">
+                <img src="img/artist/camila.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div style="position: absolute; left: 120px">
+                <h5>Havana</h5>
+                <p class="author-name">Camila Cabello</p>
+              </div>
+              <div class="extra">
+                <div>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <p class="author-name">4:44</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recently played section -->
+          <div class="similar">
+            <!-- section headings -->
+            <div class="section-heading">
+              <h1>Recently Played</h1>
+              <div class="view-all-button">View All</div>
+            </div>
+            <!--  Recently played section list-->
+            <div class="list">
+              <!-- item -->
+              <div class="playlist-item universal">
+                <div class="left">
+                  <div>01</div>
+                  <div class="universal">
+                    <img src="img/artist/ed sheeran.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>Shape of You</h5>
+                    <p>Ed Sheeran</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item universal">
+                <div class="left">
+                  <div><img src="img/artist/vector.svg" /></div>
+                  <div class="universal">
+                    <img src="img/artist/Katy-perry.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>Roar</h5>
+                    <p>Katy Perry</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item universal">
+                <div class="left">
+                  <div>03</div>
+                  <div class="universal">
+                    <img src="img/latest-release/kabir.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>Kabir</h5>
+                    <p>Shahid</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item universal">
+                <div class="left">
+                  <div>04</div>
+                  <div class="universal">
+                    <img src="img/latest-hindi/galiyaan.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>Galiyaan</h5>
+                    <p>Shidarth</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item universal">
+                <div class="left">
+                  <div>05</div>
+                  <div class="universal">
+                    <img src="img/latest-english/5.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>Mirage</h5>
+                    <p>Else</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item universal">
+                <div class="left">
+                  <div>06</div>
+                  <div class="universal">
+                    <img src="img/latest-hindi/kaun tujhe.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>Mirage</h5>
+                    <p>Else</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item universal">
+                <div class="left">
+                  <div>07</div>
+                  <div class="universal">
+                    <img src="img/artist/selena.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>Lose You</h5>
+                    <p>Selena Gomez</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item universal">
+                <div class="left">
+                  <div>08</div>
+                  <div class="universal">
+                    <img src="img/latest-release/lover.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>Lover</h5>
+                    <p>Taylor</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <!-- Upper portion is done here -->
+    <!-- ------------------------------------------------------------------------- -->
+    <!-- Footer start here -->
+    <footer>
+      <div class="active-song-description">
+        <!-- song image -->
+        <div id="song-image" class="universal">
+          <img src="img/queue/havana.jpg" />
+        </div>
+        <!-- song name and author -->
+        <div class="song-desc">
+          <div>Havana</div>
+          <div>Camila</div>
+          <!-- heart icon and ban icon -->
+        </div>
+        <div class="heart-and-ban-icon">
+          <span>
+            <i class="far fa-heart"></i>
+          </span>
+          <span>
+            <i class="fas fa-ban universal"></i>
+          </span>
+        </div>
+      </div>
+      <!-- these are the main player controls -->
+      <div class="player">
+        <div class="controls">
+          <div><i class="fas fa-random universal-2"></i></div>
+          <div><i class="fas fa-step-backward universal"></i></div>
+          <div><i class="fas fa-pause-circle universal"></i></div>
+          <div><i class="fas fa-step-forward universal"></i></div>
+          <div><i class="fas fa-redo universal-2"></i></div>
+        </div>
+        <!-- this is the slider -->
+        <div id="slider-2">
+          <!-- current time -->
+          <div class="time">1:39</div>
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="35"
+              class="slider-2"
+              id="slider-3"
+              oninput="rangeValue.innerText = this.value"
+            />
+          </div>
+          <!-- total time -->
+          <div class="time">4:44</div>
+        </div>
+      </div>
+      <!-- other icons including the volume slider and all -->
+      <div class="extras">
+        <div>
+          <i class="fas fa-list-ul universal"></i>
+        </div>
+        <div>
+          <i class="fas fa-laptop universal"></i>
+        </div>
+        <div>
+          <i class="fas fa-volume-up universal"></i>
+        </div>
+        <div class="slidecontainer" style="width: 30%">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="40"
+            class="slider-2"
+            id="slider-3"
+            step="10"
+          />
+          <label for="volume"></label>
+        </div>
+        <div>
+          <i class="fas fa-expand-alt universal"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

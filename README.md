@@ -1,2 +1,1 @@
-# CJMajor-project-
-Web Development CSS Major Project 
+Anikesh Sinha

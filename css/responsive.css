@@ -1,0 +1,559 @@
+/* these are all the media queries for index.html page with the desktop first approach*/
+@media screen and (max-width: 1100px) {
+  .fav {
+    display: none !important;
+  }
+
+  input {
+    font-size: 11px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    width: 90vw;
+    justify-content: center;
+  }
+  .search-box {
+    margin-left: 5%;
+    /* width: 100%; */
+  }
+  .nav-container .pro {
+    margin-right: 5%;
+  }
+}
+
+/* ---------------------------------------------------------------- */
+@media screen and (max-width: 1024px) {
+  /* more button vil ve visible and section 2  */
+  .aside {
+    height: 90vh;
+    margin-top: 0rem;
+    width: 90vw;
+  }
+  .section-1 {
+    width: 99%;
+  }
+  /* more button vil ve visible and section 2  */
+  label[for="more"] {
+    display: block;
+  }
+  /* hidden section 2 by default */
+  .section-2 {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    width: 400px;
+    height: 57.3vh;
+    background-color: #050043;
+    right: 10px;
+    top: 30%;
+    z-index: 4;
+    border-radius: 15px 0px 0px 15px;
+    overflow: scroll;
+    box-shadow: 0px 0px 10px 4px var(--light-blue);
+    transition: box-shadow ease-in-out 0.4s;
+  }
+  /* more button */
+  input[id="more"]:checked ~ .section-2 {
+    visibility: visible;
+    opacity: 5;
+  }
+  /* hide section 2 scrollbar */
+  .section-2::-webkit-scrollbar {
+    display: none;
+  }
+  /* re-adjusted the queue options box */
+  .queue-options {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 7%;
+    right: 0%;
+  }
+  .playlist-content {
+    overflow: visible;
+  }
+
+  /* aside section 1 */
+  #carousel {
+    width: 100%;
+    height: 30vh;
+  }
+  /* Images in Slider */
+  #slider {
+    width: 95vw;
+    height: 26vh;
+  }
+  #slides img {
+    width: 98%;
+    height: 26vh;
+    margin-left: auto;
+  }
+  #slider .start {
+    width: 98%;
+    height: 26vh;
+    margin-left: auto;
+  }
+  #slide {
+    width: 90vw;
+    text-align: center;
+  }
+  /* Popular Artists */
+  .popular-artists {
+    top: 5vh;
+  }
+  .popular-artist-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .popular-artists div a img {
+    width: 150px;
+    height: 150px;
+  }
+  .popular-artists div p {
+    text-align: center;
+    margin: 0rem 0rem 1rem 0rem;
+  }
+  .popular-artist-content > a > div > div {
+    width: 150px;
+    height: 150px;
+  }
+  .popular-artist-content a div div i {
+    font-size: 7vw;
+  }
+  /* <!-- Music Themes Section --> */
+  /* music themes */
+  .music-themes {
+    top: 7vh;
+    height: auto;
+  }
+
+  .theme-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 78%;
+    height: 100%;
+  }
+  .music-themes div img {
+    width: 150px;
+    height: 150px;
+  }
+  .theme-content {
+    height: 150px;
+    width: 150px;
+    margin: 7% 0% 5% 10%;
+  }
+  .theme-content p {
+    top: -104.1%;
+    width: 150px;
+    height: 150px;
+    font-size: 2.8vw;
+  }
+  /* <!--Mood Music Themes  --> */
+  .music-themes-2 {
+    top: 15vw;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .outer-div {
+    width: 98%;
+    height: 22vh;
+  }
+  .outer-div .inner-div span {
+    font-size: 7vw;
+    letter-spacing: 0.1rem;
+  }
+
+  /* language wise Sections */
+  .language {
+    top: 15vw;
+  }
+  .language-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+  }
+  .language-content div {
+    margin: 5% 2%;
+    width: 100%;
+  }
+  .language-content div img {
+    width: 150px;
+    height: 150px;
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 20%;
+  }
+  .language-content div p {
+    margin-left: 16%;
+  }
+  /* Footer Section */
+  footer {
+    height: 80px;
+  }
+  .active-song-description {
+    height: 90%;
+    width: 35%;
+    margin: 0rem;
+  }
+  #song-image {
+    width: 80px;
+    height: 60px;
+    padding-right: 1%;
+  }
+  #song-image img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* ------------------------------------------------------------------------------------ */
+@media screen and (max-width: 768px) {
+  .aside {
+    height: 83vh;
+    margin-top: 0rem;
+    width: 90vw;
+  }
+
+  .section-1 {
+    width: 95%;
+  }
+  .section-2 {
+    width: 337px;
+    height: 57vh;
+    top: 30.5%;
+  }
+  /* aside section 1 */
+  #carousel {
+    width: 100%;
+    height: 35vh;
+  }
+  /* Images in Slider */
+  #slider {
+    width: 90vw;
+    height: 30vh;
+  }
+  #slides img {
+    width: 100%;
+    height: 30vh;
+  }
+  #slider .start {
+    width: 90vw;
+    height: 30vh;
+  }
+  #slide {
+    width: 85vw;
+    text-align: center;
+  }
+  /* Latest Release */
+  .latest-release-content {
+    flex-direction: column;
+  }
+  .latest-release-content > div {
+    width: 91%;
+    margin: 10px 10% 10px 5%;
+  }
+  /* Popular Artists */
+  .popular-artists {
+    top: 5vh;
+  }
+  .popular-artist-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .popular-artists div a img {
+    width: 150px;
+    height: 150px;
+  }
+  .popular-artists div p {
+    text-align: center;
+    margin: 0rem 0rem 1rem 0rem;
+  }
+  .popular-artist-content > a > div > div {
+    width: 150px;
+    height: 150px;
+  }
+  .popular-artist-content a div div i {
+    font-size: 7vw;
+  }
+  /* <!-- Music Themes Section --> */
+  /* music themes */
+  .music-themes {
+    top: 6vh;
+    height: auto;
+  }
+
+  .theme-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 78%;
+    height: 100%;
+  }
+  .music-themes div img {
+    width: 100px;
+    height: 100px;
+  }
+  .theme-content {
+    height: 100px;
+    width: 100px;
+    margin: 7% 0% 5% 10%;
+  }
+  .theme-content p {
+    top: -106.2%;
+    width: 100px;
+    height: 100px;
+    font-size: 2.5vw;
+  }
+  /* <!--Mood Music Themes  --> */
+  .music-themes-2 {
+    top: 12vw;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .outer-div {
+    width: 98%;
+    height: 22vh;
+  }
+  .outer-div .inner-div span {
+    font-size: 7vw;
+    letter-spacing: 0.1rem;
+  }
+  /* language wise Sections */
+  .language {
+    top: 15vw;
+  }
+  .language-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+  }
+  .language-content div {
+    margin: 5% 2%;
+    width: 100%;
+  }
+  .language-content div img {
+    width: 150px;
+    height: 150px;
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 20%;
+  }
+  .language-content div p {
+    margin-left: 16%;
+  }
+  /* Footer Section */
+  #song-image {
+    width: 80px;
+    height: 60px;
+    padding-right: 3%;
+  }
+}
+/* ------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 540px) {
+  /* aside section 1 */
+  .aside {
+    height: 70vh;
+    margin-top: 0rem;
+    width: 90vw;
+  }
+  .section-2 {
+    width: 250px;
+    height: 57vh;
+    top: 30.5%;
+  }
+  #carousel {
+    display: none;
+  }
+  /* Latest Release */
+  .latest-release-content {
+    flex-direction: column;
+  }
+  .latest-release-content > div {
+    width: 96%;
+    margin: 10px 0px 10px 7px;
+  }
+  .card img {
+    height: 100%;
+  }
+  .song-description {
+    margin: auto 5%;
+  }
+  /* Popular Artists */
+  .popular-artists {
+    top: 5vh;
+  }
+  .popular-artist-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .popular-artists div a img {
+    width: 100px;
+    height: 100px;
+  }
+  .popular-artists div p {
+    text-align: center;
+    margin: 0.5rem 0rem;
+  }
+  .popular-artist-content > a > div > div {
+    width: 100px;
+    height: 100px;
+  }
+  .popular-artist-content a div div i {
+    font-size: 8vw;
+  }
+  /* <!-- Music Themes Section --> */
+  /* music themes */
+  .music-themes {
+    top: 10vh;
+    height: auto;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .stations {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    overflow-wrap: break-word;
+  }
+  #div1 {
+    width: 100%;
+    height: 5.5rem;
+  }
+  #div2 {
+    top: -3vw;
+    left: 2.8vw;
+    width: 88%;
+    height: 7.5rem;
+  }
+  #div3 {
+    top: -3vw;
+    left: 3vw;
+    width: 85%;
+    height: 9.4rem;
+  }
+  #div3 img {
+    width: 15vw;
+    height: 12vh;
+    margin-top: 10%;
+  }
+  #div3 p {
+    font-size: 5.5vw;
+  }
+  .theme-main {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 90%;
+    height: 50%;
+    margin-bottom: 10%;
+    margin-top: 15%;
+  }
+  .music-themes div img {
+    width: 100px;
+    height: 100px;
+  }
+  .theme-content {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 8%;
+    margin-left: 20%;
+    margin-right: 5%;
+  }
+  .theme-content p {
+    top: -105%;
+    width: 100px;
+    height: 100px;
+    font-size: 4vw;
+  }
+  /* <!--Mood Music Themes  --> */
+  .music-themes-2 {
+    top: 22vw;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .outer-div {
+    width: 95%;
+  }
+  .outer-div .inner-div span {
+    font-size: 10vw;
+    letter-spacing: 0.1rem;
+  }
+  /* language wise Sections */
+  .language {
+    top: 25vw;
+  }
+  .language-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 98%;
+  }
+  .language-content div {
+    margin: 5% 2%;
+    width: 100%;
+  }
+  .language-content div img {
+    width: 100px;
+    height: 100px;
+    margin-left: 15%;
+    margin-right: 20%;
+  }
+  .language-content div p {
+    margin-left: 17%;
+  }
+  .section-1 {
+    margin-bottom: 25vh;
+  }
+  /* Footer */
+  footer {
+    height: 80px;
+    margin: 0rem;
+    padding: 0.5rem;
+  }
+  .active-song-description {
+    height: 90%;
+    width: 35%;
+    margin: 0rem;
+    padding: 0.5rem;
+  }
+  #song-image img {
+    width: 60px;
+    height: 60px;
+  }
+  .heart-and-ban-icon {
+    padding-top: 10%;
+  }
+  .controls {
+    width: 50%;
+  }
+  .player {
+    margin: 0rem;
+    padding: 0rem;
+    width: 80%;
+  }
+
+  .heart-and-ban-icon span:nth-child(2) {
+    display: none;
+  }
+  .controls div:nth-child(1) {
+    display: none;
+  }
+  .controls div:nth-child(5) {
+    display: none;
+  }
+  .extras div:nth-child(1) {
+    display: none;
+  }
+  .extras div:nth-child(2) {
+    display: none;
+  }
+
+  .extras div:nth-child(5) {
+    display: none;
+  }
+}
+/* ------------------------------------------------------- */
